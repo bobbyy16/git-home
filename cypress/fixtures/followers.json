@@ -1,0 +1,4 @@
+[
+  { "login": "follower1", "avatar_url": "https://example.com/follower1.jpg" },
+  { "login": "follower2", "avatar_url": "https://example.com/follower2.jpg" }
+]

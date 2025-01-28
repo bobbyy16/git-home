@@ -1,0 +1,21 @@
+.githome_details_nav ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.githome_details_property_sizes{
+    font-size: 32px;
+}
+
+.githome_details_nav ul button{
+    border: 2px solid var(--primary-black);
+    height: 110px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight: bold;
+    background-color: var(--primary-white);
+    color: var(--primary-black);
+}
+.githome_details_property_title{
+    font-size: 14px;
+}

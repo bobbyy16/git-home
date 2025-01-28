@@ -1,0 +1,73 @@
+.details{
+    border: 3px solid var(--primary-black);
+    border-radius: 18px;
+    background-color: var(--primary-black);
+    height:500px ;
+    overflow-y:scroll;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+    background-color:var(--primary-black)
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-white); /* Set the color of the thumb */
+    border-radius: 10px; 
+    border: 2px solid var(--primary-white);
+    margin-top: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    /* background: red; Set the color of the track */
+  }
+  
+.details ul{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.details ul li{
+    border: 2px solid var(--primary-white);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--primary-white);
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.details ul li span span{
+    position: relative;
+   bottom: 15px;
+   margin-left: 20px;
+}
+.details img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.details div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details button{
+    all: unset;
+    border: 2px solid var(--primary-white);
+    padding: 4px;
+    text-align: center;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.details button a{
+    all: unset;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--primary-white);
+}
